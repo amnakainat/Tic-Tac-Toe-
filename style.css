@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-color: #205475 ;
+    }
+    
+    h1{
+        text-align: center;
+        
+        margin-top: 80px;
+    }
+    
+    .container{
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    .game{
+        height: 60vmin;
+        width: 60vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1.5vmin;
+      
+    }
+    .box{
+        height: 18vmin;
+        width: 18vmin;
+        border-radius: 1rem;
+        background-color: #f1faee;
+        color: #c02c07;
+        font-size: 8vmin;
+        border: none;
+        box-shadow: 0 0 1rem rgba(0, 0, 0.3,);
+        
+    }
+    
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .reset{
+      
+        padding: 8px 25px;
+        border-radius: 1rem;
+        border: none;
+        color: #fff;
+        border: none;
+        background-color: #1d3557;
+        font-size: 1.25rem;
+    }
+    
+    .daba{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15vmin;
+    }
+    .new-btn{
+        padding: 8px 25px;
+        border-radius: 1rem;
+        border: none;
+        color: #fff;
+        border: none;
+        background-color: #1d3557;
+        font-size: 1.25rem;
+        /* margin-top: 5px; */
+    }
+    .msgme{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span{
+        color: #fff;
+        font-size: 8vmin;
+        text-align: center;
+    }
+    .hide{
+        display: none;
+    }
